@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="GuessingGame.js"></script>
+    
+  </head>
+  <body>
+
+      <div id='app' class='center'>
+
+        <div id='headers'>
+          <h1 id='title'>Guessing Game</h1>
+          <h3 id='subtitle'>Pick a number between 1 and 100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent' class='center'>
+            <input id='input' placeholder="#" maxlength="3" autofocus=autofocus>
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+            </ul>
+          </div>
+
+          <div id='menu-btns'>
+            <button id='reset' class='btn btn-danger'>Reset</button>
+            <button id='hint' class='btn btn-warning'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4 container center'>
+            <h5>Project by Alyssa Venere Braun</h5>
+          </div>
+
+          <div class='col-sm-4 grace'>
+            <img class='img-responsive' src='grace_hopper_academy.png'></img>
+          </div>
+        </div> 
+    </div>
+
+  </body>
+</html>
